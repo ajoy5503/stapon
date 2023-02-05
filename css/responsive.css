@@ -1,0 +1,652 @@
+/* Responsive Css Area */
+
+@media (min-width: 1366px) and (max-width: 11650px) {
+    .welcome-text h2 {
+        font-size: 56px;
+    }
+
+    .welcome-thumb-area {
+        width: 600px;
+    }
+
+    .welcome-area {
+        height: 900px;
+    }
+
+    .welcome-text p {
+        font-size: 20px;
+    }
+
+    .single-features-area {
+        padding: 30px 15px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1365px) {
+    .welcome-thumb-area {
+        right: -65px;
+        width: 600px;
+    }
+
+    .welcome-text h2 {
+        font-size: 56px;
+    }
+
+    .welcome-area {
+        height: 900px;
+    }
+
+    .welcome-text p {
+        font-size: 20px;
+    }
+
+    .single-features-area {
+        padding: 30px 15px;
+    }
+
+    .single-blog-area h4 a {
+        font-size: 22px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .welcome-thumb-area {
+        width: 450px;
+    }
+
+    .welcome-text h2 {
+        font-size: 48px;
+    }
+
+    .welcome-text p {
+        font-size: 20px;
+    }
+
+    .welcome-area {
+        height: 800px;
+    }
+
+    .single-features-area {
+        padding: 30px 15px;
+    }
+
+    .single-features-area p {
+        font-size: 14px;
+    }
+
+    .single-features-area h4 {
+        font-size: 20px;
+    }
+
+    .app-download-text-area h3 {
+        font-size: 34px;
+    }
+
+    .about-text-area h2 {
+        font-size: 54px;
+    }
+
+    .how-works-text h4 {
+        font-size: 20px;
+    }
+
+    .how-works-text p {
+        font-size: 14px;
+    }
+
+    .single-price-table-area {
+        padding: 50px 25px;
+    }
+
+    .pricing-body ul li {
+        font-size: 15px;
+    }
+
+    .single-blog-area h4 a {
+        font-size: 20px;
+    }
+
+    .blog-btn a {
+        padding: 8px 25px;
+    }
+
+    .single-blog-area p {
+        font-size: 14px;
+    }
+
+    .footer-single-widget.desc p {
+        font-size: 16px;
+    }
+
+    .newsletter-form button.btn.submit-btn {
+        font-size: 13px;
+    }
+
+    .welcome-text.home-2 h2 {
+        font-size: 66px;
+    }
+    .team-text {
+        padding: 30px 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .site-menu-main .nav-link-item {
+        text-align: left;
+    }
+
+    .dekstop-menu-btn {
+        display: none;
+    }
+
+    .site-menu-main {
+        padding-left: 45px;
+        padding-top: 15px;
+    }
+
+    .site-menu-main>li>a {
+        line-height: 48px;
+        height: 50px;
+    }
+
+    #append-menu-header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-left: auto;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .mobile-menu-head {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .site-menu-main .sub-menu {
+        background-color: #0f0826;
+    }
+
+    .site-menu-main .sub-menu--item>a {
+        color: #fff;
+    }
+
+    .site-menu-main .sub-menu--item {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .site-header .mobile-menu-trigger span {
+        background-color: #fff;
+    }
+
+    .site-header .mobile-menu-trigger span:before,
+    .site-header .mobile-menu-trigger span:after {
+        background-color: #fff;
+    }
+
+    .site-header.home-1 .mobile-menu-trigger span {
+        background-color: #222;
+    }
+
+    .site-header.home-1 .mobile-menu-trigger span:before,
+    .site-header.home-1 .mobile-menu-trigger span:after {
+        background-color: #222;
+    }
+
+    .site-menu-main.home-2 .nav-link-item {
+        border-right: none;
+    }
+
+    .site-header.home-1 .mobile-menu-trigger span {
+        background-color: #222;
+    }
+
+    .site-header.home-1 .mobile-menu-trigger span:before,
+    .site-header.home-1 .mobile-menu-trigger span:after {
+        background-color: #222;
+    }
+
+    .site-header .mobile-menu-trigger span:before,
+    .site-header .mobile-menu-trigger span:after {
+        background-color: #fff;
+    }
+
+    .site-menu-main .sub-menu--item {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .sub-menu li .nav-link-item {
+        padding: 8px 32px !important;
+    }
+
+    .menu-auth {
+        display: none;
+    }
+
+    .reg-btn {
+        border: 1px solid rgba(255, 255, 255, 0.25);
+
+
+    }
+
+    .login-btn {
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        color: #fff;
+        border-radius: 10px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+
+    .site-menu-main>li .sub-menu.mega-menu,
+    .site-menu-main>li .sub-menu {
+        padding-top: 73px;
+    }
+
+    .site-header .menu-block {
+        width: 65%;
+    }
+
+    .welcome-thumb-area {
+        width: 400px;
+    }
+
+    .welcome-text h2 {
+        font-size: 43px;
+    }
+
+    .welcome-area {
+        height: 750px;
+    }
+
+    .welcome-text p {
+        font-size: 19px;
+    }
+
+    .welcome-thumb-area {
+        right: -130px;
+    }
+
+    .app-download-text-area h3 {
+        font-size: 32px;
+    }
+
+    .app-address h5 {
+        font-size: 16px;
+    }
+
+    .about-text-area h2 {
+        font-size: 42px;
+    }
+
+    .about-text-area p {
+        font-size: 18px;
+    }
+
+    .single-price-table-area {
+        padding: 50px 25px;
+    }
+
+    .welcome-text {
+        margin-top: 40px;
+    }
+
+    .welcome-text.home-2 h2 {
+        font-size: 62px;
+    }
+
+    .welcome-area.home-2 {
+        height: 685px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .site-menu-main .nav-link-item {
+        text-align: left;
+    }
+
+    ul.menu-auth.mobile {
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 38%;
+        left: 0;
+        z-index: 1010;
+    }
+
+    .site-menu-main {
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+
+    .site-menu-main>li>a {
+        line-height: 48px;
+        height: 48px;
+    }
+
+    ul.menu-auth.mobile {
+        display: block;
+    }
+
+    .dekstop-menu-btn {
+        display: none;
+    }
+
+    .site-menu-main .sub-menu--item {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .site-header .mobile-menu-trigger span {
+        background-color: #fff;
+    }
+
+    .site-header .mobile-menu-trigger span:before,
+    .site-header .mobile-menu-trigger span:after {
+        background-color: #fff;
+    }
+
+    .site-header.home-1 .mobile-menu-trigger span {
+        background-color: #222;
+    }
+
+    .site-header.home-1 .mobile-menu-trigger span:before,
+    .site-header.home-1 .mobile-menu-trigger span:after {
+        background-color: #222;
+    }
+
+    .site-menu-main.home-2 .nav-link-item {
+        border-right: none;
+    }
+
+    .site-header.home-1 .mobile-menu-trigger span {
+        background-color: #222;
+    }
+
+    .site-header .mobile-menu-trigger span:before,
+    .site-header .mobile-menu-trigger span:after {
+        background-color: #fff;
+    }
+
+    .menu-auth {
+        display: none;
+    }
+
+    .reg-btn {
+        border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    .login-btn {
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        color: #fff;
+        border-radius: 10px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+
+
+    .site-menu-main .sub-menu {
+        background-color: #0f0826;
+    }
+
+    .site-menu-main .sub-menu--item {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .sub-menu li .nav-link-item {
+        padding: 8px 32px !important;
+    }
+
+    .site-menu-main .sub-menu--item>a {
+        color: #fff;
+    }
+
+    #append-menu-header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-left: auto;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .mobile-menu-head {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    ul.menu-auth.mobile {
+        display: block;
+    }
+
+    .menu-auth {
+        display: none;
+    }
+
+    .site-menu-main>li .sub-menu.mega-menu,
+    .site-menu-main>li .sub-menu {
+        padding-top: 73px;
+    }
+
+    .welcome-text h2 {
+        font-size: 32px;
+    }
+
+    .welcome-area {
+        height: 750px;
+    }
+
+    .welcome-area.home-2 {
+        height: 700px;
+    }
+
+    .hero-btn-cu {
+        margin-bottom: 15px;
+    }
+
+    .welcome-text p {
+        font-size: 17px;
+    }
+
+    .welcome-text.home-2 h2 {
+        font-size: 29px;
+        line-height: 1.5;
+    }
+
+    .welcome-text.home-2 h6 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .welcome-text.home-2 p {
+        font-size: 16px;
+    }
+
+    .welcome-text {
+        margin-top: 40px;
+    }
+
+    .hero-btn-1 {
+        margin-right: 0;
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .welcome-thumb-area {
+        right: -82px;
+        z-index: 1;
+        width: 180px;
+    }
+
+    .app-download-text-area h3 {
+        font-size: 28px;
+    }
+
+    .app-address p {
+        margin-bottom: 30px;
+    }
+
+    .about-text-area h2 {
+        font-size: 36px;
+    }
+
+    .about-text-area p {
+        font-size: 18px;
+    }
+
+    .heading-title p {
+        font-size: 14px;
+    }
+
+    .wroks-icon {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .single-price-table-area {
+        padding: 50px 25px;
+    }
+
+    .pricing-body ul li {
+        font-size: 15px;
+    }
+
+    .cta-content-text h2 {
+        font-size: 40px;
+    }
+
+    .cta-content-text p {
+        font-size: 17px;
+    }
+
+    .cta-shape-line {
+        bottom: 65px;
+    }
+
+    .accordion-body p {
+        font-size: 15px;
+    }
+
+    .single-blog-area h4 a {
+        font-size: 20px;
+    }
+    .comment-person-img {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 45px;
+                flex: 0 0 45px;
+        margin-right: 15px;
+    }
+    .single-comment-card {
+        padding: 30px 15px;
+    }
+    .comment-meta-info h5 {
+        font-size: 17px;
+    }
+    .c-meta-icon {
+        height: 50px;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 50px;
+                flex: 0 0 50px;
+        line-height: 50px;
+    }
+    .contact-meta-info-area h4 {
+        font-size: 32px;
+    }
+    .auth-content p {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:480px) and (max-width: 767px) {
+    .welcome-text h2 {
+        font-size: 40px;
+    }
+
+    .welcome-text p {
+        font-size: 18px;
+    }
+
+    .heading-title h2 {
+        font-size: 26px;
+    }
+
+    .single-features-area p {
+        font-size: 16px;
+    }
+
+    .app-download-text-area h3 {
+        font-size: 32px;
+    }
+
+    .single-blog-area h4 a {
+        font-size: 22px;
+    }
+
+    .welcome-text.home-2 h2 {
+        font-size: 42px;
+    }
+
+    .welcome-text.home-2 p {
+        font-size: 19px;
+    }
+
+    .hero-btn-cu {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+    .contact-meta-info-area h4 {
+        font-size: 36px;
+    }
+}
+
+
+@media (min-width:576px) and (max-width: 767px) {
+    .hero-btn-1 {
+        margin-right: 10px;
+        margin-bottom: 0;
+        display: inline-block;
+    }
+
+    .welcome-text h2 {
+        font-size: 49px;
+    }
+
+    .welcome-thumb-area {
+        right: -82px;
+        width: 210px;
+    }
+
+    .heading-title p {
+        font-size: 16px;
+    }
+
+    .single-features-area {
+        padding: 30px 50px;
+    }
+
+    .wroks-icon {
+        margin-right: 25px;
+        margin-bottom: 0;
+    }
+
+    .single-price-table-area {
+        padding: 50px;
+    }
+
+    .pricing-body ul li {
+        font-size: 17px;
+    }
+
+    .welcome-text.home-2 h2 {
+        font-size: 46px;
+    }
+}
